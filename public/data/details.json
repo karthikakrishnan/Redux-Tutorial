@@ -1,0 +1,7 @@
+{
+    "employees": [
+        { "name": "Jon Snow", "id": "777" },
+        { "name": "Arya Stark", "id": "778" },
+        { "name": "Jaime Lannister", "id": "779" }
+    ]
+}

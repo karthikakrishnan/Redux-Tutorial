@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     const postItems = this.props.employees.map(employee => (
       <div >
-        <p>{employee}</p>
+        <p>{employee.name}</p>
       </div>
     ))
     return (

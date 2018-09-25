@@ -1,7 +1,7 @@
 import GET_LIST from '../actions/actionTypes';
 
 const initialState = {
-    employees: []
+    employees: [{"name":'Karthika', "id": '7'}]
 }
 
 export default function(state = initialState, action) {

@@ -1,4 +1,3 @@
-import axios from 'axios';
 import GET_LIST from './actionTypes';
 
 // const employees = ['Jon', 'Jaime', 'Arya'];
@@ -6,6 +5,6 @@ import GET_LIST from './actionTypes';
 export const showList = () => dispatch => {
     return {
         type: GET_LIST,
-        payload: ['Jon', 'Jaime', 'Arya']
+        payload: [{"name":'Jon', "id": '1'}, {"name": 'Jaime',"id":'2'}]
     }
 }

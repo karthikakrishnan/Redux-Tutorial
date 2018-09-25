@@ -1,6 +1,8 @@
 import GET_LIST from '../actions/actionTypes';
 
-const initialState = [];
+const initialState = {
+    employees: []
+}
 
 export default function(state = initialState, action) {
     console.log('swittch', action)

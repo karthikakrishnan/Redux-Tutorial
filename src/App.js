@@ -20,10 +20,8 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.props.employees);
     const postItems = this.props.employees.map(employee => (
       <div >
-        
         <p>{employee}</p>
       </div>
     ))
@@ -47,7 +45,7 @@ class App extends Component {
     employees: PropTypes.array
 }
 const mapStateToProps = state => ({
-    employees: state.employees
+    employees: state.employees.employees
 });
 
 // export default connect App;
